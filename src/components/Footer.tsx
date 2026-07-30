@@ -5,7 +5,7 @@ export default function Footer() {
     <footer style={{ background: '#142240', color: 'rgba(245,242,236,0.65)', padding: '4rem 0 2.5rem' }}>
       <div className="max-w-6xl mx-auto px-6">
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1.5fr 1fr 1fr', gap: '4rem', marginBottom: '3.5rem' }}>
+        <div className="grid-footer" style={{ gap: '2.5rem', marginBottom: '3.5rem' }}>
 
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.9rem', marginBottom: '1.2rem' }}>
