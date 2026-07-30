@@ -18,7 +18,7 @@ export default function Honoraires() {
     <section id="honoraires" style={{ padding: '7rem 0', background: '#f5f2ec' }}>
       <div className="max-w-6xl mx-auto px-6">
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '5rem', alignItems: 'start' }}>
+        <div className="grid-2col" style={{ gap: '5rem', alignItems: 'start' }}>
 
           <div>
             <p style={{ fontSize: '0.58rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: '#b89d5a', marginBottom: '0.8rem' }}>
